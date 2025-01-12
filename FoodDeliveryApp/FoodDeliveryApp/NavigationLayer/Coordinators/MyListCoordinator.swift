@@ -1,22 +1,21 @@
 //
-//  OnboardingCoordinator.swift
+//  MyListCoordinator.swift
 //  FoodDeliveryApp
 //
-//  Created by Надежда Капацина on 12.01.2025.
+//  Created by Надежда Капацина on 13.01.2025.
 //
 
 import UIKit
 
-class OnboardingCoordinator: Coordinator {
+class MyListCoordinator: Coordinator {
     
     override func start() {
         let vc = ViewController()
+        vc.view.backgroundColor = .green
         navigationController?.pushViewController(vc, animated: true)
     }
     
     override func finish() {
-        print("OnboardingCoordinator finish")
+        print("MyListCoordinator finish")
     }
 }
-
-
