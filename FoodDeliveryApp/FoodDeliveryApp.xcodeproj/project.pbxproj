@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE529E1F2D345F7E00CDFF8D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE529E1E2D345F7000CDFF8D /* AppCoordinator.swift */; };
+		DE529E212D3460BA00CDFF8D /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE529E202D3460AE00CDFF8D /* OnboardingCoordinator.swift */; };
 		DEC80E072CA2012B002F637E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC80E062CA2012B002F637E /* AppDelegate.swift */; };
 		DEC80E092CA2012B002F637E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC80E082CA2012B002F637E /* SceneDelegate.swift */; };
 		DEC80E0B2CA2012B002F637E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC80E0A2CA2012B002F637E /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE529E1E2D345F7000CDFF8D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DE529E202D3460AE00CDFF8D /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		DEC80E032CA2012B002F637E /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC80E062CA2012B002F637E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEC80E082CA2012B002F637E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 		DEC80E402CA34AB1002F637E /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				DE529E202D3460AE00CDFF8D /* OnboardingCoordinator.swift */,
+				DE529E1E2D345F7000CDFF8D /* AppCoordinator.swift */,
 				DEC80E412CA34C67002F637E /* Coordinator.swift */,
 			);
 			path = Coordinators;
@@ -258,6 +264,8 @@
 				DEC80E0B2CA2012B002F637E /* ViewController.swift in Sources */,
 				DEC80E072CA2012B002F637E /* AppDelegate.swift in Sources */,
 				DEC80E3D2CA3438C002F637E /* AppColors.swift in Sources */,
+				DE529E212D3460BA00CDFF8D /* OnboardingCoordinator.swift in Sources */,
+				DE529E1F2D345F7E00CDFF8D /* AppCoordinator.swift in Sources */,
 				DEC80E092CA2012B002F637E /* SceneDelegate.swift in Sources */,
 				DEC80E3B2CA34173002F637E /* UIColor + Extension.swift in Sources */,
 				DEC80E422CA34C67002F637E /* Coordinator.swift in Sources */,
